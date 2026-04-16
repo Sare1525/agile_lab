@@ -1,1 +1,1 @@
-﻿class Device { void powerOn() { System.out.println('Device is starting...'); } } public class Laptop extends Device { public void start() { powerOn(); System.out.println('Laptop is ready.'); } public static void main(String[] args) { Laptop myLaptop = new Laptop(); myLaptop.start(); } }
+class Device { void powerOn() { System.out.println("Device is starting..."); } } public class Laptop extends Device { public void start() { powerOn(); System.out.println("Laptop is ready."); } public static void main(String[] args) { Laptop myLaptop = new Laptop(); myLaptop.start(); } }
